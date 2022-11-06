@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Animations Study</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <a id="logo" href=""><img src="./assets/logo.png" width="25px"/></a>
+      <nav id="nav">
+        <button id="btn-mobile">Menu</button>
+        <ul id="menu">
+          <li id="ativar"href="/"><a>Login</a></li>
+          <li><a href="/">Twitter</a></li>
+          <li><a href="/">Github</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <div id="modal" class="animar">
+      <h1>Login</h1>
+      <label>Email</label>
+      <input type="text" />
+      <label>Password</label>
+      <input type="password" />
+      <button>Log in</button>
+    </div>
+
+    <div id="load"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
